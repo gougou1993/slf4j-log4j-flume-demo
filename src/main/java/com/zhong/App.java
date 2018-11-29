@@ -8,9 +8,9 @@ public class App {
 	protected static final Logger log = LoggerFactory.getLogger(App.class);
 	
 	public static void main(String[] args) {
-		for (int i = 0; i < 100; i++) {
+		for (int i = 0; i < 200; i++) {
 			try {
-				Thread.sleep(1000);
+				Thread.sleep(100);
 			} catch (InterruptedException e) {
 				e.printStackTrace();
 			}
