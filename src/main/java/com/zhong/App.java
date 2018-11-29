@@ -14,7 +14,7 @@ public class App {
 			} catch (InterruptedException e) {
 				e.printStackTrace();
 			}
-			log.info("name:{},age:{}","name",11);
+			log.info("name:{},age:{}","name",i);
 		}
 
 	}
